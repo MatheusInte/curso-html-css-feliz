@@ -12,36 +12,138 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">    
     <link rel="stylesheet" type="text/css" href="css/components/title.css">
     <link rel="stylesheet" type="text/css" href="css/components/subtitle.css">
-    <link rel="stylesheet" type="text/css" href="css/components/box.css">
-    <link rel="stylesheet" type="text/css" href="css/components/button.css">
-    <link rel="stylesheet" type="text/css" href="css/components/action.css">
-    <link rel="stylesheet" type="text/css" href="css/components/header.css">
-    <link rel="stylesheet" type="text/css" href="css/components/title.css">
-    <link rel="stylesheet" type="text/css" href="css/components/subtitle.css">
-    <link rel="stylesheet" type="text/css" href="css/components/banner.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-box.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-button.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-action.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-header.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-title.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-banner.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main-section.css">
+    <link rel="stylesheet" type="text/css" href="css/components/skill-tec.css">
+    <link rel="stylesheet" type="text/css" href="css/components/progress-bar.css">
+    <link rel="stylesheet" type="text/css" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" type="text/css" href="css/components/card-project.css">
+    <link rel="stylesheet" type="text/css" href="css/components/wrapper-card.css">
 </head>
 <body>
-    <header class="header">
+    <header class="main-header">
         <img src="assets/img/p.png" alt="Avatar Matheus Interaminense">
         <nav>
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
+            <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
     
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
-                <h1 class="title">Matheus Interaminense</h1>
-                <h2 class="subtitle">Software Engineer Student</h2>
+            <div class="main-box">
+                <h1 class="main-title">Matheus Interaminense</h1>
+                <h2 class="main-subtitle">Software Engineer Student</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="" lang="en">Download CV</a>
-                <a class="button" href="">Contatos</a>
+                <a class="main-button" href="" lang="en">Download CV</a>
+                <a class="main-button" href="">Contatos</a>
             </div>
+        </div>
+    </section>
+    <section class="main-section">
+        <h1 class="main-title -second">Skills</h1>
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_html5.png" all="logo html">
+                <div class="right">
+                <h2 class="title">HTML</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_nodejs.png" all="logo nodejs">
+                <div class="right">
+                <h2 class="title">NodeJS</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_css3.png" all="logo css3">
+                <div class="right">
+                <h2 class="title">CSS</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_tdd.png" all="logo tdd">
+                <div class="right">
+                <h2 class="title">TDD</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_js.png" all="logo js">
+                <div class="right">
+                <h2 class="title">JavaScript</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_restapi.png" all="logo restapi">
+                <div class="right">
+                <h2 class="title">Rest API</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_react.png" all="logo react">
+                <div class="right">
+                <h2 class="title">React</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="img/ico_ux.png" all="logo ux">
+                <div class="right">
+                <h2 class="title">UX</h2>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="main-section -bgBlack -bdFirst">
+        <h2 class="main-title -second">Meus Projetos</h2>
+        <div class="wrapper-card">
+            <a href="" target="_blank">
+                <figure class="card-project">
+                    <img class="logo" src="img/logo-firedlabs.svg" alt=""></img>
+                </figure>
+            </a>
+            <a href="" target="_blank">
+                <figure class="card-project -blue">
+                    <img class="logo" src="img/logo-collabcode.png" alt=""></img>
+                </figure>
+            </a>
+            <a href="">
+                <figure class="card-project">
+                <img class="logo" src="img/portfolio.png" alt=""></img>
+                </figure>
+            </a>
         </div>
     </section>
 </body>
